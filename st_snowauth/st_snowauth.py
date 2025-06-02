@@ -106,5 +106,5 @@ def snowauth_session(config=None, label="Login to Snowflake"):
 
 
     session = st.session_state[_STKEY]
-    st.sidebar.button("Logout", on_click=logout)
+    # st.sidebar.button("Logout", on_click=logout)
     return session
