@@ -7,7 +7,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="st_snowauth",
+    name="st_snowauth_nowidget",
     packages=find_packages(),
     version='0.0.1',
     description='Helper tools for connecting to data sources from Streamlit',
